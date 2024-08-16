@@ -1,0 +1,20 @@
+<div>
+    <h2>Presentacion Alumno</h2>
+    <p>
+        Hola me llamo Gustavo Acosta empece este curso para reforzar mis conocimenientos 
+        de Javascript,los cuales son bastante basicos por ende
+        me cuesta en parte porque estoy mas acostumbrado 
+        a programar en Java. Pero de a poco le voy agarrando la practica...
+    </p><br>
+    <p>
+        Texto generico para rellenar mas la pantalla:
+        JavaScript es una habilidad esencial para cualquier desarrollador web moderno. 
+        Al dominar este lenguaje, abrirás las puertas a un mundo de oportunidades en el 
+        desarrollo de aplicaciones web y móviles.<br>
+        Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla 
+        bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla 
+        bla bla bla bla bla bla bla bla bla bla bla bla bla bla 
+        bla bla bla bla bla bla bla bla bla bla bla bla bla bla. 
+    </p>
+    
+</div>

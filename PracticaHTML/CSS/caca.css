@@ -1,0 +1,176 @@
+#Titulo{
+    color: tomato;
+
+}
+p.texto{
+    color: lightgreen;
+}
+p.especial{
+    color: mediumaquamarine;
+}
+div p{
+    color:brown ;
+}
+div h2, div h3{
+    color: blue;
+}
+/*asi se comenta
+el simbolo*{} cambia a todos los stylos o parametros 
+de todo solamente si no esta definida en algun selector anterior*/
+*{
+    font-size:25px ;
+   /* color: black;*/
+}
+
+/* .color{
+    color: #ff0000;
+
+    
+} */
+ /* .color{
+    color: rgb(0, 255, 255);
+ } */
+ .color{
+    /* border: 5px black dotted; */
+    /*
+    dotted
+    dashed
+    solid
+    double
+    -tridimensionales
+    groove
+    ridge
+    inset
+    outset
+    -
+    none
+    hidden
+    */
+    border-style: solid;
+    border-color: blue;
+    border-radius: 5px;
+    border-width: 2rem;
+ }
+ #fondo{
+    color: aliceblue;
+   
+    background-color: rgb(230, 7, 7);
+    /* opacity: 0.3; */
+    height: 200px;
+    background-image: url('R2.png');
+    background-size: 100px 100px;
+    background-repeat: repeat-y;
+    background-position: center top;
+ }
+ .margen{
+    background-color: chocolate;
+    margin: 10px;
+    padding: 25px;
+    border: solid 3px black;
+    height: 100px;
+    width: 40px;
+    overflow: scroll;
+    outline: 1px solid red;
+ }
+ .text{
+    font-family: "Playwrite US Trad", cursive;
+    text-align: right;
+    text-decoration: overline;
+    text-shadow: 3px 5px 5px blueviolet;
+ }
+ /*para usar los distintos tipos de links
+ tiene q ser especificamente en ese orden*/
+ a:link{
+    color: blueviolet;
+ }
+
+ a:visited{
+    color: greenyellow;
+ }
+
+a:hover{
+    color: darkcyan;
+}
+
+a:active{
+    color: red;
+}
+ul{
+    background-color: brown;
+    list-style-type: circle;
+    /* padding-left: 0; */
+    /* list-style-position:inside ; */
+
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td{
+    border: solid 1px #e11;
+    padding: 5px;
+}
+th{
+    background-color: tomato;
+    color: white;
+    text-align: left;
+}
+tr:nth-child(even){
+    background-color: #e0e;
+}
+tr:hover{
+    background-color: #aaa;
+    cursor: pointer;
+}
+span{
+    /*display block fuerza a q los elementos empiezen en una 
+    nueva linea incluso los &span-a-img) q por defecto no comienzan en nuevas lineas*/
+    display: block;
+    /* display: none; */
+    /* visibility: hidden; */
+    max-width: 300px;
+    background-color: #e11;
+}
+.inline{
+    /*display inlinea totalmente lo contrario
+    fuerza a q NO comienzen los elementos en nuevas lineas*/
+    display: inline;
+}
+#posicion{
+    position: sticky;
+    left: 20px;
+     top: 25px; 
+
+}
+.left{
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+.right{
+    float: right;
+}
+.conteiner{
+    height: 200px;
+}
+.column{
+   
+    margin: 0 ;
+    padding: 10px 0;
+    width: 33.3%;
+}
+.inline-block{
+    /*se ultiliza mucho cuando queremos hacer menus de 
+    navegacion loscuales tengan los link de derecha a izq o viseversa */
+    display: inline-block;
+    height: 55px;
+    background-color: #e11;
+}
+.center{
+    /*CENTRAR COSAS DENTRO DE UN ELEMNTO*/
+    padding: 20px 0;
+    text-align: center;
+    width: 200px;
+    margin: 0 auto;
+    background-color: aqua;
+}

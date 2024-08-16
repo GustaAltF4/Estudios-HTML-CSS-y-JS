@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Titulo Pagina</title>
+    <style>
+        table, td, th{
+            border: 1px double black;
+        }
+    </style>
+</head>
+
+<body>
+    <table style="width: 500px;">
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>hola bits</td>
+                <td>Gratis</td>
+            </tr>
+            <tr>
+                <td>chanchito mugroso</td>
+                <td>19,99$</td>
+            </tr>
+            <tr>
+                <td>chanchito mugroso con mucho mas texto</td>
+                <td>30,99$</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td></td>
+                <td>total= 50,98$</td>
+            </tr>
+        </tfoot>
+    </table>
+
+
+    <!--ul es lista no ordenada
+        li es list item-->
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ul>
+     <!--ol es lista ordenada-->
+     <ol>
+        <li value="30">Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+        <LI>
+            <OL>
+                <LI style="list-style-type: lower-roman;">sub Elemento 1</LI>
+                <LI style="list-style-type: lower-roman;">sub Elemento 2</LI>
+                <LI style="list-style-type: lower-roman;">sub Elemento 3</LI>
+            </OL>
+        </LI>
+    </ol>
+
+
+
+
+    <form action="/formulario" method="post">
+        <label for="nombre">nombre</label>
+        <input value="chancho" type="text" id="nombre" name="nombre" placeholder="esperando..."/>
+        <!--type= submit/email/password/radio/checkbox/file--><br>
+        <label for="apellido">Apellido</label>
+        <input value="mugroso"  type="text" name="apellido" id="apellido" placeholder="aun esperando...">
+        <br>
+        <label for="comentario">Comentarios</label><br>
+        <textarea cols="50" rows="10" id="comentario" placeholder="ingrese comentario">valor por defecto</textarea>
+        <br>
+        <button type="button">tipo boton</button>
+        <button type="reset">tipo reset</button>
+        <button type="submit">tipo submit</button>
+    </form>
+    <h1> Primer Heading</h1>
+    <h2> Segundo heading</h2>
+    <h3> Lameloide real</h3>
+    <p> un parrafo. </p>
+    <p>otro parrafo mas</p>
+    <hr>
+    <h1>epaaaaa</h1>
+    <!--kjdfshgkjsdfgksdhfgkj-->
+    <!--comentarios con esta simbologia
+    se puede serguir comentando simplemente en la linea de abajo-->
+    <p> este texto es <span style="color: blue;" >mucho mas largo</span> y es unicamente
+        para probar la 
+        <br><br> etiqueta de span
+    </p>
+    <a href="https://www.google.com">Ir a google</a><br>
+    <a target="_blank" href=" https://www.google.com">Ir a google</a><br>
+    <img src="1/img/R2.png" height="400" width="500" />
+   
+</body>
+
+
+</html>
